@@ -1,0 +1,316 @@
+.box__menu {
+  max-width: 100%;
+  min-height: 70px;
+  background: url("../img/images.jpg");
+  padding: 0 100%;
+  margin: 0 -100%;
+  margin-bottom: 50px;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+  display: flex;
+
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.menu__link {
+  font-size: 20px;
+  color: rgba(0,0,0,0.6);
+  text-shadow: rgba(255,255,255,0.5) 0 3px 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 15px 5px 15px;
+  border: 2px solid #595959;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: url("../img/image.jpg");
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+}
+
+.menu__link:hover {
+  color: #f7f7f7;
+  text-shadow: 6px 6px 0 rgba(0,0,0,0.2);
+  transition: All 0.5s ease;
+  background-position: 0 150px;
+}
+
+.menu__link:active {
+  box-shadow: 0 0 20px rgba(255,255,255,.6);
+}
+
+.content {
+  max-width: 100%;
+  margin: 0 -100%;
+  padding: 0 100%;
+  background: url("../img/fone.jpg") ;
+  margin-top: 20px;
+}
+
+.box_content {
+  width: 96%;
+  min-height: 200px;
+  margin:  auto;
+  text-align: center;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+}
+
+.up_content {
+  font-size: 28px;
+  color: #595959;
+  text-shadow: #fff -1px -1px 0, #333 1px 1px 0;
+  padding: 10px 0 10px 0;
+  font-weight: bold;
+
+}
+
+.text_content {
+  color: #595959;
+  padding-bottom: 15px;
+  text-shadow: #fff -1px -1px 0, #333 1px 1px 0;
+}
+
+.content__media {
+  max-width: 96%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.content__video {
+  max-width: 100%;
+  margin: 40px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.content__video-one {
+  max-width: 100%;
+  min-height: 100%;
+  margin: auto;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+  border-radius: 5px;
+  background: url("../img/fone.jpg");
+}
+
+.content__audio {
+  max-width: 100%;
+  margin: 90px auto 0;
+  display: flex;
+}
+
+.content__media-text {
+  max-width: 100%;
+  min-height: 60px;
+  background: url("../img/images.jpg");
+  margin-top: 40px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+}
+
+.media__text {
+  margin: auto;
+  font-size: 20px;
+  color: #20222e;
+  text-shadow: rgba(255,255,255,0.5) 0 3px 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.content__audio-one {
+  width: 500px;
+  height: 70px;
+  margin: auto;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+  border-radius: 5px;
+  padding-bottom: 35px;
+  background: url("../img/fone.jpg");
+  margin-bottom: 50px;
+  border: 2px solid #6f6f6f;
+}
+
+.content__audio-one:hover {
+  transition: All 0.8s ease;
+  background-position: 0 180px;
+}
+
+.content__svg {
+  max-width: 100%;
+  min-height: 600px;
+  margin: 50px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.layout {
+  max-width: 100%;
+  min-height: 400px;
+  margin: 50px auto 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.aside__one {
+  width: 20%;
+  order: 1;
+  flex: 1;
+  background: url("../img/fone.jpg");
+  text-align: center;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+  border-radius: 5px;
+  font-size: 2em;
+  color: #595959;
+  border: 2px solid #6f6f6f;
+  text-shadow: #fff -1px -1px 0, #333 1px 1px 0;
+}
+
+.main {
+  width: 50%;
+  order: 2;
+  flex: 2;
+  background: url("../img/fone.jpg");
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2em;
+  border: 2px solid #6f6f6f;
+  color: #595959;
+  text-shadow: #fff -1px -1px 0, #333 1px 1px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main__text {
+  margin: auto;
+  font-size: 18px;
+  text-shadow: #fff -1px -1px 0, #333 1px 1px 0;
+}
+
+.aside__two {
+  width: 20%;
+  order: 3;
+  flex: 1;
+  background: url("../img/fone.jpg");
+  text-align: center;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+  border-radius: 5px;
+  font-size: 2em;
+  border: 2px solid #6f6f6f;
+  color: #595959;
+  text-shadow: #fff -1px -1px 0, #333 1px 1px 0;
+
+}
+
+.work__flex {
+  max-width: 100%;
+  margin: 40px auto;
+  min-height: 500px;
+  border: 2px solid #6f6f6f;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+}
+
+.boxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+}
+
+.boxes__item {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  background-color: #fc4c4c;
+  border: 2px solid wheat;
+  box-sizing: border-box;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+  margin: auto;
+  color: rgba(0,0,0,0.6);
+  text-shadow: rgba(255,255,255,0.5) 0 3px 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 62px;
+  border-radius: 5px;
+}
+
+.boxes__item:hover {
+  background: url("../img/granit1.jpg");
+  color: #f7f7f7;
+  text-shadow: 6px 6px 0 rgba(0,0,0,0.2);
+  transition: All 0.5s ease;
+  background-position: 0 150px;
+}
+
+.content__end {
+  max-width: 100%;
+  min-height: 60px;
+  background: url("../img/images.jpg");
+  display: flex;
+  box-shadow:
+          inset rgba(0,0,0,.6) 0 -3px 8px,
+          inset rgba(252,255,255,.7) 0 3px 8px,
+          rgba(0,0,0,.8) 0 3px 8px -3px;
+  padding: 0 100%;
+  margin: 0 -100%;
+  margin-bottom: 50px;
+}
+
+.end__text {
+  margin: auto;
+  font-size: 20px;
+  color: #20222e;
+  text-shadow: rgba(255,255,255,0.5) 0 3px 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

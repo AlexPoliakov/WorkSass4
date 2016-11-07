@@ -1,0 +1,31 @@
+@import "reset";
+@import "fonts";
+@import "header";
+@import "content";
+@import "footer";
+@import "media";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'open_sansextrabold', Tahoma, sans-serif;
+  background-size: cover;
+  overflow-x: hidden;
+  background: url("../img/fone.jpg");
+}
+
+.conteiner {
+  margin: 0 auto;
+  min-height: 100%;
+  max-width: 1020px;
+}
+
+.box {
+  margin: 0 auto;
+  max-width: 960px;
+  min-height: 100%;
+}
